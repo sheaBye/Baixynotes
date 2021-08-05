@@ -1,0 +1,4 @@
+
+INSERT INTO qywechat.sys_user_role (user_role_id ,user_id, role_id) VALUES( (select replace(uuid(),'-','')) ,'18333529196',(SELECT role_id FROM qywechat.sys_role WHERE role_name='普通用户'
+));
+
