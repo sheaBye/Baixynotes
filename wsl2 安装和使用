@@ -1,0 +1,8 @@
+https://blog.csdn.net/qq_35068933/article/details/118459548
+
+wsl --set-version ：切换 WSL 2 与 WSL 1
+wsl --set-default-version ：更改默认 WSL 版本
+wsl --shutdown：立即终止所有正在运行的发行版和 WSL 2 VM
+wsl --list --quiet：列出发行版名称
+wsl --list --verbose：显示发行版的详细信息
+
