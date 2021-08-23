@@ -1,6 +1,8 @@
 位置：
 idea 右击数据库表--》scripted extentions--》修改/新建groovy脚本，
+修改完脚本后，右击表，选择用脚本生成就可以了。
 
+脚本如下（不同的数据库插件不同脚本）：
 
 mybatis ：
 
@@ -417,4 +419,3 @@ static String genSerialID()
 
 
 
-ranho然后生成就可以。
