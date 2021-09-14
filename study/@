@@ -1,7 +1,0 @@
-
-
- @JsonIgnore
- listMenuByUserId(userId).stream().filter(item -> menuType.equals(item.getMenuType())).collect(Collectors.toList());
-
-
- alter table `sys_menu` add column  `theme` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL COMMENT '图标颜色' after `icon`;
